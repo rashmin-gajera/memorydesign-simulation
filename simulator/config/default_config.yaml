@@ -1,0 +1,7 @@
+# Default configuration for the KV-cache simulator
+simulation_steps: 10000
+monolithic_kv_size: 4096
+paged_kv_num_pages: 128
+paged_kv_page_size: 32
+compression_ratio: 0.5
+pressure_threshold: 0.8
