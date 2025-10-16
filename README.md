@@ -136,11 +136,4 @@ Outputs:
 - The simulator is intentionally small and illustrative. The PagedCompressedKV compression is a heuristic, not a faithful implementation of a real compressor.
 - The engine (`core/engine.py`) is a scaffold; it does not currently process events or simulate time beyond stepping through the trace in `main.py`.
 
-## Contact
 
-If you want, I can:
-- Add alloc/free events to the trace generator and update `main.py` to handle lifetimes.
-- Implement LRU-based compression or asynchronous compression.
-- Export CSV outputs for deeper analysis.
-
-Pick the next enhancement you want and I will implement it.

@@ -3,6 +3,7 @@ Paged KV-cache with compression gate.
 """
 
 class PagedCompressedKV:
+    
     def __init__(self, num_pages, page_size, compression_ratio, pressure_threshold):
         self.num_pages = num_pages
         self.page_size = page_size

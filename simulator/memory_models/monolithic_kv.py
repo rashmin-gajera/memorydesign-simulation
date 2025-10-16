@@ -15,3 +15,7 @@ class MonolithicKV:
 
     def free(self, amount):
         self.usage = max(0, self.usage - amount)
+
+
+
+        
